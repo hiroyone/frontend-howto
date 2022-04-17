@@ -2,7 +2,7 @@ import styles from "./timeline.module.scss";
 
 export default function Timeline() {
   return (
-    <>
+    <div className={styles.outer}>
       <div className={styles.timeline}>
         <div className={`${styles.container} ${styles.left}`}>
           <div className={styles.content}>
@@ -62,6 +62,6 @@ export default function Timeline() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

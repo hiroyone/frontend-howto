@@ -1,11 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
 /* Set a background color */
-body {
+.outer {
   background-color: #474e5d;
   font-family: Helvetica, sans-serif;
+  * {
+    box-sizing: border-box;
+  }
 }
 
 /* The actual timeline (the vertical ruler) */

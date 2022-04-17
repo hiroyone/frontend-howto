@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import styles from "./App.module.scss";
 
 /**
@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <nav className={styles.nav}>
-        <Link to="/" className={styles.link}>
+        <NavLink to="/" className={styles.link}>
           Top
-        </Link>
-        <Link to="/timeline" className={styles.link}>
+        </NavLink>
+        <NavLink to="/timeline" className={styles.link}>
           Timeline
-        </Link>
+        </NavLink>
       </nav>
       <Outlet />
     </div>

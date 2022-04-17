@@ -8,8 +8,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="timeline" element={<Timeline />} />
+        <Route path="/" element={<App />}>
+          <Route path="timeline" element={<Timeline />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

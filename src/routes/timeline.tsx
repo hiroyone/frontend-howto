@@ -1,6 +1,6 @@
 import styles from "./timeline.module.scss";
 
-export default function TimelinePage() {
+export default function Timeline() {
   return (
     <>
       <div className={styles.timeline}>

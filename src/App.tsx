@@ -1,9 +1,11 @@
-import TimelinePage from "./pages/timeline";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <TimelinePage />
+      <nav>
+        <Link to="/timeline">Timeline</Link>
+      </nav>
     </div>
   );
 }

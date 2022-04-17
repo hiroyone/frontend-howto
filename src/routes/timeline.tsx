@@ -1,5 +1,9 @@
 import styles from "./timeline.module.scss";
 
+/**
+ * Add the timeline page
+ * @return {JSX} The JSX facade
+ */
 export default function Timeline() {
   return (
     <div className={styles.outer}>
